@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Material Design Signup Interaction</title>
+  <link href='css1.txt' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+  <div class="content">
+    <div class="header hidden"></div>
+    <div class="button">
+      <div class="sign-up">SIGN UP</div>
+      <form class="hidden form" onsubmit="return true" action="../successreg.jsp" method="post">
+        <input type="text"  name="name" placeholder="Username"/>
+        <input type="password" name="password" placeholder="Password"/>
+        <input type="password" name="password1" placeholder="Re Enter Password"/>
+        <select name="utype">
+            <option>USER</option>
+        </select>
+      <input type="submit" value="REGISTER">
+      </form>
+    </div>
+  </div>
+</div>
+  <script src='jquery.min.js'></script>
+    <script  src="js/index.js"></script>
+</body>
+</html>
